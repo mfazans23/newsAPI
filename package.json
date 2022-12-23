@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon dist/src/api.js",
-    "start": "netlify-lambda serve src",
-    "build": "netlify-lambda build src"
+    "start": "netlify-lambda serve dist/src",
+    "build": "netlify-lambda build dist/src"
   },
   "keywords": [],
   "author": "",
